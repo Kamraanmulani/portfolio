@@ -1,0 +1,17 @@
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--color-bg); }
+a { color: var(--color-accent); }
+a:hover { color: var(--color-accent-600); }
+
+/* Hover states (the design's `style-hover` attributes) */
+.nav-link { color: var(--color-text); text-decoration: none; }
+.nav-link:hover { color: var(--color-accent); }
+.brand, .brand:hover { color: var(--color-text); text-decoration: none; }
+.theme-switch:hover { background: var(--color-surface) !important; }
+.row-hover:hover { background: var(--color-surface); }
+.accent-link { color: var(--on-accent); text-decoration: none; }
+.accent-link:hover { color: var(--on-accent); text-decoration: underline; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
