@@ -44,7 +44,8 @@ function Hero() {
   const cta = { minWidth: 180, justifyContent: 'flex-start', padding: '12px 16px', fontSize: 15 };
   return (
     <section style={{ paddingTop: 'clamp(16px,2vw,28px)' }}>
-      <KMHeroWeb />
+      <h1 className="sr-only">Kamraan Mulani — AI/ML Engineer</h1>
+      <div aria-hidden="true"><KMHeroWeb /></div>
       <div style={{ borderTop: DIV, display: 'flex', flexWrap: 'wrap', gap: '24px 48px', padding: '28px 0 56px', alignItems: 'flex-start' }}>
         <p style={{ flex: '2 1 520px', margin: 0, fontSize: 'clamp(22px,2.1vw,30px)', fontWeight: 600, lineHeight: 1.3, letterSpacing: '-0.01em', textWrap: 'pretty' }}>
           AI/ML engineer building retrieval systems, voice agents and vision pipelines that ship. B.E. IT (AI/ML) at Vidyalankar Institute of Technology, Mumbai — CGPA 9.938, graduating 2027.
